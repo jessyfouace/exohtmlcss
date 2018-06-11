@@ -71,9 +71,11 @@ h3 {
   padding-bottom: 5%;
 }
 
-h4 {
+h2 {
   text-align: center;
   color: white;
+  font-size: 1em;
+  margin-top: 3%;
 }
 
 
@@ -83,12 +85,12 @@ h4 {
       }
     }
 
-@media only screen and (min-width: 580px) and (max-width: 875px) {
+@media only screen and (min-width: 580px) and (max-width: 1014px) {
           .test1 {
-            width: 40%;
+            width: 42%;
           }
 
           #c1, #c2 {
-            font-style: 10px;
+            font-size: 1em;
           }
         }
